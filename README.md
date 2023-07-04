@@ -9,8 +9,10 @@ Author:  Erin James Wills, ejw.data@gmail.com
 
 ## Overview  
 <hr>  
-This repo explores algorithms that can help identify optimum paths.  Initially, I will include only population as my optimizing criteria but I will continue to add features for improving the calculation such as minimum distance between cities or total cities visited per trip.  Initially I will only calculate the routes based on a crude method (search of all options) but I intend to use more optimized methods like Dijkstra's Algorithm in the future.
+This repo explores algorithms that can help identify optimum paths.  Initially, I will include only distance as my optimizing criteria but I will continue to add features for improving the calculation such as population based optimization, minimum distance between cities or total cities visited per trip.  Initially I will only calculate the routes based on a crude method (search of all options) but I intend to use more optimized methods like Dijkstra's Algorithm in the future.
 
 ## Status  
-1.  Currently have a basic model working
-1.  Simple Dijkstra examples are working but customizations are in progress.  
+1.  Currently have a basic model working that finds shortest distance - need utilize haversine distance instead of euclidean
+1.  Need to optimize for greatest population and allow for distance to vary but set limit for the maximum number of cities visited
+1.  Don't think the basic model will find optimum for more complicated problems since it is finding the next minimum distance instead of looking at the total trip distance.  A crude model that finds all combinations could find the best solution but this would be very processing heavy.  Need to use an algorithm like Dijkstra or A*
+1.  Simple Dijkstra example is working but customizations are in progress
