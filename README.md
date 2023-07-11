@@ -19,4 +19,5 @@ This repo explores algorithms that can help identify optimum paths.  Initially, 
 
 
 ## Flow diagram of NetworkX Code
+- The text needs updating - difficult to write this flow chart without subscripts  
 ![NetworkX flow diagram](./images/path-flow-diagram.png)
