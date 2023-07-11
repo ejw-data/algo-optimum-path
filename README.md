@@ -16,3 +16,7 @@ This repo explores algorithms that can help identify optimum paths.  Initially, 
 1.  Need to optimize for greatest population and allow for distance to vary but set limit for the maximum number of cities visited
 1.  Don't think the basic model will find optimum for more complicated problems since it is finding the next minimum distance instead of looking at the total trip distance.  A crude model that finds all combinations could find the best solution but this would be very processing heavy.  Need to use an algorithm like Dijkstra or A*
 1.  Simple Dijkstra example is working but customizations are in progress
+
+
+## Flow diagram of NetworkX Code
+![NetworkX flow diagram](./images/path-flow-diagram.png)
